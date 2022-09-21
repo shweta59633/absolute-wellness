@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    width:950px;
+    height:400px;
+    position: relative;
+    left: 130px;
+    top: 60px;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    /* border: 1px solid grey; */
+    flex-wrap: wrap;
+    }
+    h2{
+        color:#00308F  ;
+        position: relative;
+        top: 60px;
+    font-size: 35px;
+    text-align: center;
+    }
+    .div1,.div2,.div3{
+    height:300px;
+    width:250px;
+    /* border:1px solid black; */
+    align-self:center;
+    border-radius: 40px;
+    box-shadow: 3px 2px 4px 2px grey;
+    }
+    h1{
+    font-size: 20px;
+    color: rgb(63, 61, 61);
+    text-align:center;
+    position: relative;
+    top: 20px;
+    }
+    p{
+    font-size:16px;
+    color: rgb(104, 102, 102);
+    text-align:center;
+    position: relative;
+    top: 20px;
+    }
+    .img1{
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+top: 20px;}

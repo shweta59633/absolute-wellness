@@ -1,0 +1,295 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+  }
+  body{
+      max-width: 1375px;
+  }
+  .opening-hr{
+      background-color: #00308F;
+      display: flex;
+      height: 40px;
+      width: 100%;
+      color: white;
+      padding: 10px;
+  }
+  .fa-clock{
+      color: aliceblue;
+      position: relative;
+      /* left: 35px; */
+     left: 20%;
+  }
+  .opn{
+      position: relative;
+      left: 40px;
+      text-transform: capitalize;
+  }
+  .fa-mobile{
+      position: relative;
+      left: 120px;
+  }
+  .numb{
+      position: relative;
+      left: 130px;
+  }
+  
+  nav{
+      overflow-x: hidden;
+      height: 100px;
+  
+  }
+  .logo-name{
+      width:35%;    
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:800;
+      position: relative;
+      left:20px;
+      top:25px;
+      letter-spacing: 2px;
+      color:#0077c0;
+  }
+  .logo-name span{
+      color: black;
+  }
+  
+  .logo-name{
+  /* box-shadow: 0px 0px 4px 2px #00308F; */
+  font-family:'Montserrat', 'sans-serif'; 
+  transition: 0.9s;
+  }
+  .logo-name:hover{
+  transform:translatex(10px);
+  }
+  .list-items ul{
+      float: right;
+      position: relative;
+      right:250px;
+      bottom: 30px;
+      
+  }
+  .list-items ul{
+  text-decoration: none;
+  list-style: none;
+  }
+  .list-items ul li{
+      display: inline-block;
+      padding: 10px;
+     }
+  
+  .list-items ul li a{
+  text-decoration: none;
+  transition: 0.8s;
+  font-weight: 600;
+  /* font-weight: bold; */
+  font-family: 'Montserrat', 'sans-serif';
+  text-transform: uppercase;
+  /* color:rgb(88, 88, 240); */
+  color:#0077c0;
+  }
+  
+  .list-items ul li a:hover{
+  text-shadow: 0px 1px 1px black;
+  transform: translatey(2px);
+  text-decoration: underline;
+  
+  }
+/* smile changess */
+.smile{
+    height: 600px;
+    width: 100%;
+}
+.bg-img{
+    background-image: url(images/safehands.jpg);
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.change-lives{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.change-lives > span{
+    position: relative;
+    top: 50px;
+    left:230px;
+    color: #00308F;
+    text-transform: capitalize;
+}
+
+/* why dentall caree */
+#dental{
+    height: 400px;
+    width: 100%;
+}
+.top-line{
+    border-bottom: 4px solid #0077c0;    
+    position: relative;
+    left: 50px; 
+    width: 70px; 
+    top: 83px;  
+}
+.dental-care > h1{
+    position:relative;
+    top: 40px;
+    left: 50px;
+    color: #0077c0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;        
+}
+.left-box{
+  width: 40%;
+  height: 270px;
+  float: left;
+  position: relative;
+  top: 80px;
+  left: 40px;
+  /* border:2px solid red; */
+}
+.dental-text{
+    font-family:'Montserrat', sans-serif ;
+    text-transform: capitalize;
+
+}
+.right-box{
+  width: 40%;
+  height: 350px;
+  float: left;
+  position: relative;
+  left:100px;
+  box-shadow: 1px 1px 3px 2px grey;
+  /* border: 2px solid lawngreen; */ 
+}
+.right-box img{
+    height: 100%;
+    width: 100%;
+}
+/* footerrr */
+footer{
+    overflow-x: hidden;
+  }
+.footer-1{
+  background-color: #232F3E;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  font-family:'Montserrat', 'sans-serif'; 
+}
+h2{
+    position: relative;
+    top: 10px;
+}
+.one{
+    display: inline;
+    height: 300px;
+    width: 32%;
+    color: white;
+}
+.one ul{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+.one ul li{
+  top:30px;
+   position: relative;
+    right:30px;
+    letter-spacing: 1px;
+    font-family:'Montserrat', 'sans-serif'; 
+}
+.one ul li{
+  padding-bottom: 2px;
+  text-transform: capitalize;  
+}
+.one ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+ }
+.two{
+    display: inline;
+    height: 300px;
+    width: 32%;
+    color: white;    
+}
+.two ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    top:30px;
+    position: relative;
+     letter-spacing: 1px;    
+}
+.two ul li{
+  padding-bottom: 10px;
+  text-transform: capitalize;  
+}
+.two ul li a{
+    color: white;
+    text-decoration: none;
+    font-family:'Montserrat', 'sans-serif';     
+}
+.three{
+    display: inline;
+    height: 300px;
+    width: 32%;
+    color: white;
+    position: relative;
+    right: 50px;
+    padding-right: 80px;
+    letter-spacing: 1px;
+}
+.three ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    top:30px;
+    position: relative;    
+}
+.three ul li{
+  padding-bottom: 10px;
+  text-transform: capitalize;  
+}
+.three ul li a{
+    color: white;
+    text-decoration: none;    
+}
+ul li a:hover{
+  text-decoration:underline;
+}
+.img img{
+width: 50%;
+border-radius: 50%;
+height: 130px;
+position: relative;
+top:50px;
+left: 40px;
+cursor: pointer;
+}
+.fa-location-pin{
+  position: relative;
+  right: 5px;
+  font-size: 24px;
+}
+.fa-phone{
+  position: relative;
+  right: 5px;
+  top:17px;
+  font-size: 24px;
+}
